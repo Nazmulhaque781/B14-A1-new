@@ -156,3 +156,85 @@ nav button{
     color:gray;
     font-size:14px;
 }
+
+/* 3 cards */
+.pricing{
+    width:90%;
+    margin:80px auto;
+    text-align:center;
+}
+
+.pricing h1{
+    font-size:45px;
+    margin-bottom:10px;
+}
+
+.pricing p{
+    color:gray;
+    margin-bottom:50px;
+}
+
+.price-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+}
+
+.price-card{
+    width:320px;
+    background:white;
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:25px;
+    text-align:left;
+}
+
+.price-card h5{
+    color:gray;
+    margin-bottom:10px;
+}
+
+.price-card h2{
+    font-size:45px;
+}
+
+.price-card span{
+    color:gray;
+    font-size:14px;
+}
+
+.price-card hr{
+    margin:20px 0;
+}
+
+.price-card ul{
+    margin-left:20px;
+    line-height:35px;
+    margin-bottom:30px;
+}
+
+.price-card button{
+    width:100%;
+    padding:12px;
+    border:1px solid royalblue;
+    border-radius:8px;
+    background:white;
+    color:royalblue;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.active-card{
+    background:#0f172a;
+    color:white;
+}
+
+.active-card span{
+    color:#ddd;
+}
+
+.active-card button{
+    background:royalblue;
+    color:white;
+    border:none;
+}
