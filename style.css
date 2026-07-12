@@ -238,3 +238,185 @@ nav button{
     color:white;
     border:none;
 }
+
+/* missing card */
+.hackathon{
+    width:90%;
+    margin:100px auto;
+    text-align:center;
+}
+
+.hackathon h1{
+    font-size:48px;
+    margin-bottom:15px;
+}
+
+.hack-desc{
+    width:60%;
+    margin:0 auto 50px;
+    color:#666;
+    line-height:28px;
+}
+
+.ticket{
+
+    display:flex;
+
+    background:white;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    border:2px solid #2563eb;
+
+}
+
+.ticket-left{
+
+    width:35%;
+
+    background:rgb(246, 96, 121);
+
+    color:white;
+
+    padding:50px 35px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    position:relative;
+
+}
+
+.ticket-left h4{
+
+    letter-spacing:3px;
+
+    margin-bottom:10px;
+
+}
+
+.ticket-left h2{
+
+    font-size:34px;
+
+    margin-bottom:20px;
+
+}
+
+.date{
+
+    margin-bottom:35px;
+
+}
+
+.ticket-left button{
+
+    padding:14px 28px;
+
+    background:white;
+
+    color:#2563eb;
+
+    border:none;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+}
+
+
+.ticket-right{
+
+    width:65%;
+
+    padding:45px;
+
+    text-align:left;
+
+}
+
+.info{
+
+    display:flex;
+
+    justify-content:space-between;
+
+}
+
+.info h5{
+
+    color:#2563eb;
+
+    margin-bottom:10px;
+
+    letter-spacing:1px;
+
+}
+
+.info h3{
+
+    font-size:28px;
+
+}
+
+.ticket-right hr{
+
+    margin:35px 0;
+
+}
+
+.ticket-right h5{
+
+    color:#2563eb;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.tracks{
+
+    display:flex;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+}
+
+.tracks span{
+
+    padding:10px 20px;
+
+    border:1px solid #2563eb;
+
+    color:#2563eb;
+
+    border-radius:30px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.tracks span:hover{
+
+    background:#2563eb;
+
+    color:white;
+
+}
